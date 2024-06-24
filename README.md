@@ -1,30 +1,64 @@
-# React + TypeScript + Vite
+# Game Web - Hanging Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido al repositorio del juego del ahorcado! Este proyecto está desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+## Tabla de Contenidos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Descripción](#descripción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Licencia](#licencia)
 
-## Expanding the ESLint configuration
+## Descripción
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este es un juego web interactivo del ahorcado. Los jugadores deben adivinar la palabra correcta antes de que se complete la figura del ahorcado. Es una manera divertida y educativa de mejorar el vocabulario y pasar el tiempo.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalación
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
+
+1. Clona el repositorio:
+
+    ```bash
+    git clone https://github.com/axxving/game-web-hanging-game-axxving.git
+    ```
+
+2. Navega al directorio del proyecto:
+
+    ```bash
+    cd game-web-hanging-game-axxving
+    ```
+
+3. Instala las dependencias necesarias:
+
+    ```bash
+    npm install
+    ```
+
+## Uso
+
+Para iniciar el servidor de desarrollo, ejecuta:
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Abre [http://localhost:5173](http://localhost:5173) en tu navegador para ver la aplicación.
+
+Para construir el proyecto para producción, ejecuta:
+
+```bash
+npm run build
+```
+
+Los archivos construidos estarán en la carpeta `dist`.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+¡Gracias por visitar el repositorio! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o hacer un pull request.
+
+---
